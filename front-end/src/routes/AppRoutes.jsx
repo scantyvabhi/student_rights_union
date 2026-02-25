@@ -10,6 +10,8 @@ import JoinOurTeam from "../pages/JoinOurTeam";
 import Donate from "../pages/Donate";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import TermsAndConditions from "../pages/TermsAndConditions";
+import Footer from "../components/Footer";
+
 
 export default function AppRoutes() {
   return (
@@ -26,6 +28,7 @@ export default function AppRoutes() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

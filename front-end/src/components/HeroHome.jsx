@@ -38,12 +38,17 @@ export function HeroHome() {
                 <div className="w-full lg:w-1/2 space-y-8 bg-[url('https://framerusercontent.com/images/iVXBNlfNlwOrYh8NPdvIwT1BY.png?width=1400&height=1824')] bg-cover bg-center rounded-3xl p-8  lg:p-6 py-12 lg:py-16 shadow-sm">
 
                     <div className="flex flex-col h-80 mt-20 items-center gap-48">
-                        <h2 className="text-xl flex items-center font-semibold text-gray-900 bg-white px-6 py-3 rounded-full leading-snug">
-                            Latest actions, initiatives & updates  
+                        {/* <div className="text-xl flex items-center font-semibold text-gray-900 bg-white px-6 py-3 rounded-full leading-snug">
+                              
+                            <h2 className="">Latest actions, initiatives & updates</h2>
                             <a href="" className="bg-gray-200 p-3 ml-4 border rounded-full"><FaVideo/></a>
-                        </h2>
+                        </div> */}
+                        <div className="flex flex-nowrap"> 
+                            <h2 className="bg-white/70 text-gray-800 text-2xl rounded-full py-3 px-6 font-medium border">Watch the Latest</h2>
+                            <a href="" target="_blank" className="bg-white/80 p-4 text-2xl ml-4 border rounded-full"><FaVideo/></a>
+                        </div>
                         
-                        <div className="flex items-center justify-evenly gap-8 text-2xl text-black px-6 py-4 rounded-full bg-white/50 backdrop-blur-md border border-white/40 shadow-lg">
+                        <div className="flex items-center justify-evenly gap-8 text-2xl text-black px-6 py-4 rounded-full bg-white/50 backdrop-blur-md border border-black/40 shadow-lg">
                             <FaInstagram className="hover:text-gray-600 transition cursor-pointer" />
                             <FaFacebookF className="hover:text-gray-600 transition cursor-pointer" />
                             <FaTwitter className="hover:text-gray-600 transition cursor-pointer" />
